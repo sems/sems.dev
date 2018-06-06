@@ -35,14 +35,11 @@
 		-moz-box-sizing: border-box
 		box-sizing: border-box
 		margin: 0 auto
-		padding: 20px
 		min-width: 300px
 		padding-bottom: 184px
 		.section_title
 			font-size: 36px
 			line-height: 50px
-			padding-left: 8px
-			padding-right: 8px
 			margin: 20px auto 40px
 			max-width: 740px
 			text-align: center
@@ -81,5 +78,45 @@
 					margin: auto
 					max-width: 50px
 					max-height: 50px
+          transition: ease 0.3s
 					@media (min-width: 768px)
 						max-height: 60px
+.preview
+  transition: ease 0.3s !important
+  &_expanded
+    width: 100% !important
+    transition: ease 0.3s !important
+    background-color: #092d6c !important
+    @media (min-width: 576px)
+      width: 400px !important
+    @media (min-width: 768px)
+      width: 500px !important
+    .inner-expanded
+      padding: 1em
+      color: #ffffff
+      line-height: 1.2em
+      p 
+        margin: 1.5em
+      a 
+        text-decoration: none
+        color: #ffffff
+        padding: 0.5em 0.75em
+        border: 1px solid #ffffff
+        border-radius: 0.317em
+        transition: ease 0.2s
+        &:hover
+          color: #092d6c
+          background-color: #ffffff
+        &:active
+          color: lighten(#092d6c, 5%)
+          background-color: darken(#ffffff, 5%)
+    .Tilt-inner
+      position: absolute
+      top: 2em !important
+      left: 2em !important
+      bottom: auto !important
+      right: auto !important
+      max-width: 40px !important
+      max-height: 40px !important 
+      transition: ease 0.3s !important
+      
