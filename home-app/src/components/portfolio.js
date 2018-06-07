@@ -46,6 +46,13 @@ const Entities = [
 		description: 'Author John Grisham\'s dutch site with all information regarding him and his various books. Helped to establish the site using a custom theme developed by the guys at EGM Media.',
     externalLink: '//grisham.nl/',
     inner: 'inner/john.svg',
+	},
+	{
+		type: 'worked_on',
+		name: 'Eneco_Energy_Game',
+		description: 'The large scale project made at my internship at IQ-Media together with Demien (fellow intern). The game was build from scratch in ReactJS and communicates with an webapi. The game was developed from middle school students to learn about energy efficiency.',
+    externalLink: '//enecogame.podium.nl/',
+    inner: 'inner/Eneco_Energy_Game.png',
   },
 ]
 
