@@ -1,5 +1,4 @@
 import React from 'react';
-import Tilt from 'react-tilt'
 
 import { Case } from './case'
 
@@ -10,7 +9,7 @@ export class Portfolio extends React.Component {
 		super(props);
 		this.state = {	
 			
-		};
+    };
 	}
 
 	render() {
