@@ -40,16 +40,9 @@ export class Case extends React.Component {
             {this.state.expanded && 
             <div className="inner-expanded">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Id consequatur aliquid tempora dicta neque, sequi necessitatibus nobis. 
-                Dolores, magnam excepturi! Ullam, quae. Maiores earum aperiam alias vel? 
-                Rem, facilis a.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Id consequatur aliquid tempora dicta neque, sequi necessitatibus nobis. 
-                Dolores, magnam excepturi! Ullam, quae. Maiores earum aperiam alias vel? 
-                Rem, facilis a.
+                {this.props.description}
               </p>
-              <a href={this.props.externalLink}>To site</a>
+              <a target="_blank" href={this.props.externalLink}>View website</a>
             </div>}
           </Tilt>
       </div>
