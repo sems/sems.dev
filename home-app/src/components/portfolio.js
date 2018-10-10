@@ -51,7 +51,7 @@ const Entities = [
 		type: 'worked_on',
 		name: 'Eneco_Energy_Game',
 		description: 'The large scale project made at my internship at IQ-Media together with Demien (fellow intern). The game was build from scratch in ReactJS and communicates with an webapi. The game was developed from middle school students to learn about energy efficiency.',
-    externalLink: '//enecogame.podium.nl/',
+    externalLink: '//youvegotthepower.nl/',
     inner: 'inner/Eneco_Energy_Game.png',
   },
 ]
