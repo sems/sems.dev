@@ -9,7 +9,7 @@ const Entities = [
 		type: 'work',
 		name: 'sem',
 		description: 'My first site with a implemented CMS on the backend.',
-    externalLink: '//sspanhaak.saldev.nl/',
+    externalLink: '//landstede.semspanhaak.nl/',
     inner: 'inner/sem.svg',
   },
   {
@@ -22,10 +22,17 @@ const Entities = [
   {
 		type: 'work',
 		name: 'knoop',
-		description: 'My last examproject. The project lasted for 20 weeks in groups of 4 to 5 people. Our assignment was to build a multidisplay-presentationsytem, connected to an api written in C#. The backend consist of screen, user and presentation managementtools ',
+		description: 'My last examproject at Landstede. The project lasted for 20 weeks in groups of 4 to 5 people. Our assignment was to build a multidisplay-presentationsytem, connected to an api written in C#. The backend consist of screen, user and presentation managementtools ',
     externalLink: '//presentatiesysteem-2017-2018.saldev.nl/',
     inner: 'inner/knoop.svg',
-  },
+	},
+	{
+		type: 'work',
+		name: 'wwi',
+		description: 'The first project at the University of Applied Sciences. The site has been build in PHP without any API or OOP inmind. This because classmates without any experience need to get without to much thinking. NOTE: styling was not graded at this project.',
+		externalLink: '//worldwideimporters.shop/',
+		inner: 'inner/wwi.png',
+	},
   {
 		type: 'worked_on',
 		name: 'mts',
