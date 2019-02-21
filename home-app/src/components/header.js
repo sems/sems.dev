@@ -15,14 +15,21 @@ export class Header extends React.Component {
 			<div className="front-header">
 				<div className="main">
 					<p>
-						Hello, my name is Sem Spanhaak. Today the day I'm a sales assistant at <a href="//azerty.nl/">Azerty</a>.
-						Quit my jobs <a href="//www.diellepelletkachel.nl/">here</a> as a webmaster and <a href="//azerty.nl/">here</a> as a logistical assistant.
-						My first intership I did was at <a href="//egm-media.com">egm-media</a>. I did my latest intership at <a href="//iqmedia.nl">IQ-Media</a>.
-						I also like to explore the world and it's remote places.
-						You can find me on <a href="//twitter.com/semspanhaak">Twitter</a> also at <a href="https://www.linkedin.com/in/semspanhaak">LinkedIn</a>.
-						If you want to mail me, you can! You can mail to <a href="mailto:info@semspanhaak.nl">info@semspanhaak.nl</a>.
-						I like to talk about games and technology.
+						Hi, nice meeting you!
 					</p>
+					<p>
+						My name is <span className="me">Sem</span>, studying for my Bachelor of Computer Science at <a className="windes" href="//www.windesheim.com/">Windesheim</a>. 
+						Besides school I work as a sales and helpdesk assistant at <a className="azerty" href="//azerty.nl/">Azerty</a>.
+						I did my first internship at <a className="egm" href="//egm-media.com">EGM Media</a> and latest at <a className="iq" href="//iqmedia.nl">IQ-Media</a>.
+						People I've worked for: <a className="e-active" href="//e-active.nl/">E-Active</a>, <a className="landstede" href="//landstedembo.nl">Landstede</a>, <a className="azerty" href="//azerty.nl/">Azerty</a> and <a className="dielle" href="//www.diellepelletkachel.nl/">Dielle</a>.
+					</p>
+					<p>
+						I like to explore the world, talk about games, technology and so much more.
+					</p>
+					<p>
+						Ways to contact me: <a className="twitter" href="//twitter.com/semspanhaak">Twitter</a>, <a className="linkedin" href="//linkedin.com/in/semspanhaak">LinkedIn</a> or <a className="github" href="//github.com/semspanhaak">Github</a>.
+						If you want to mail me, you can! You can mail to <a className="me" href="mailto:info@semspanhaak.nl">info@semspanhaak.nl</a>.
+					</p>	
 				</div>
 			</div>
 		)

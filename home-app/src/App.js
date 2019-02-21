@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import './styles/page.css';
 
 import { Header } from './components/header';
-import { Portfolio } from './components/portfolio';
-import { Footer } from './components/footer';
 
 class App extends Component {
 
@@ -12,8 +10,6 @@ class App extends Component {
     return (
       <div className="home_container">
         <Header />
-        <Portfolio />
-        <Footer />
       </div>
     );
   }
