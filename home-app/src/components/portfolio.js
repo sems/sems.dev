@@ -90,15 +90,10 @@ export class Portfolio extends React.Component {
 			<div className="portfolio">
 				<div className="content container">
 					<h2 className="section_title">
-						<span>Portfolio</span>
+						<span>Stuff I worked on</span>
 					</h2>
 					<section className="work">
 						{this.state.work_cases}
-					</section>
-					<h2 className="section_title">
-						<span>Worked on during internship</span>
-					</h2>
-					<section className="worked-on">
 						{this.state.worked_on_cases}
 					</section>
 				</div>

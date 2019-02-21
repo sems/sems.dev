@@ -11,7 +11,7 @@ export class Footer extends React.Component {
 	render() {
 		return(
 			<div className="footer">
-                <p>Code with <span role="img" aria-label="Heart">❤️</span>, hosted on <a href="//github.com/semspanhaak">Github</a></p>
+                <p>Coded with <span role="img" aria-label="Heart">❤️</span>, hosted on <a href="//github.com/semspanhaak">Github</a></p>
 			</div>
 		)
 	}

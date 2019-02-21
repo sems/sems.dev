@@ -1,5 +1,4 @@
 import React from 'react';
-import Tilt from 'react-tilt'
 
 import '../styles/portfolio.css';
 
@@ -33,7 +32,7 @@ export class Case extends React.Component {
     let case_class = this.state.expanded ? "preview_expanded" : "preview";
 		return(
       <div>
-          <Tilt className={this.props.title + ' Tilt ' + case_class} options={{ max : 23, scale: '1.05' }} style={ !this.state.expanded && this.state.styles } >
+          <div className={this.props.title + ' Tilt ' + case_class} style={ !this.state.expanded && this.state.styles } >
             <a className="case_link" onClick={this.expandClickHandler}>
               <img className="Tilt-inner" src={this.state.expanded ? this.state.innerIconExpanded : this.state.innerIcon} alt={this.props.title} />
             </a>
@@ -44,7 +43,7 @@ export class Case extends React.Component {
               </p>
               <a target="_blank" href={this.props.externalLink}>View website</a>
             </div>}
-          </Tilt>
+          </div>
       </div>
 		)
 	}
