@@ -3,7 +3,6 @@
 	background-repeat: no-repeat
 	background-position: center
 	&:before 
-		background-size: 3000px 256px
 		background-position: center bottom
 		background-repeat: no-repeat
 		content: ''
@@ -36,17 +35,17 @@
 		box-sizing: border-box
 		margin: 0 auto
 		min-width: 300px
-		padding-bottom: 184px
+		padding-bottom: 152px
 		.section_title
 			font-size: 36px
 			line-height: 50px
-			margin: 20px auto 40px
+			margin: 40px auto
 			max-width: 740px
 			text-align: center
-			text-transform: uppercase
 			span 
 				color: #10659c
-		.work, .worked-on 
+				font-weight: bold;
+		.work
 			display: flex
 			flex-wrap: wrap
 			align-items: center
@@ -85,8 +84,8 @@
 					margin: auto
 					max-width: 50px
 					max-height: 50px
-          transition: ease 0.3s
-          cursor: pointer
+          			transition: ease 0.3s
+          			cursor: pointer
 					@media (min-width: 768px)
 						max-height: 60px
 				&.preview
