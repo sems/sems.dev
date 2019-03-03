@@ -28,7 +28,7 @@ export class Header extends React.Component {
 					</p>
 					<p>
 						Ways to contact me: <a className="twitter" href="//twitter.com/semspanhaak">Twitter</a>, <a className="linkedin" href="//linkedin.com/in/semspanhaak">LinkedIn</a> or <a className="github" href="//github.com/semspanhaak">Github</a>.
-						If you want to mail me, you can! You can mail to <a className="me" href="mailto:info@semspanhaak.nl">info@semspanhaak.nl</a>.
+						If you want to mail me, you can! You can mail to <a className="me" href="mailto:me@sems.dev">me@sems.dev</a>.
 					</p>	
 				</div>
 			</div>
