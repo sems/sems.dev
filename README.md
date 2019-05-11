@@ -1,4 +1,4 @@
-# semspanhaak
+# Sems.dev
 This is the repository for my site; semspanhaak.nl
 
 ### Available Scripts
