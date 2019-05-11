@@ -18,10 +18,10 @@ export class Header extends React.Component {
 						Hi, nice meeting you!
 					</p>
 					<p>
-						My name is <span className="me">Sem</span>, currently studying for my Bachelor of Computer Science at <a className="windes" href="//www.windesheim.com/">Windesheim</a>. 
+						My name is <span className="me">Sem</span>, currently studying for my BSc in Software Engineering at <a className="windes" href="//www.windesheim.com/">Windesheim</a>. 
 						Besides school, I work as a sales and helpdesk assistant at <a className="azerty" href="//azerty.nl/">Azerty</a>.
 						I did my first internship at <a className="egm" href="//egm-media.com">EGM Media</a> and the latest at <a className="iq" href="//iqmedia.nl">IQ-Media</a>.
-						People I've worked for: <a className="e-active" href="//e-active.nl/">E-Active</a>, <a className="landstede" href="//landstedembo.nl">Landstede</a>, <a className="azerty" href="//azerty.nl/">Azerty</a>, and <a className="dielle" href="//www.diellepelletkachel.nl/">Dielle</a>.
+						People I've worked for: <a className="creative-orange" href="//creativeorange.nl">Creative Orange</a>, <a className="e-active" href="//e-active.nl/">E-Active</a>, <a className="landstede" href="//landstedembo.nl">Landstede</a>, <a className="azerty" href="//azerty.nl/">Azerty</a>, and <a className="dielle" href="//www.diellepelletkachel.nl/">Dielle</a>.
 					</p>
 					<p>
 						I like to explore the world, talk about games, technology and so much more.
