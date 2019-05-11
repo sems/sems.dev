@@ -1,5 +1,5 @@
 # Sems.dev
-This is the repository for my site; semspanhaak.nl
+This is the repository for my site; [https://sems.dev](https://sems.dev)
 
 ### Available Scripts
 
