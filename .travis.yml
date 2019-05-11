@@ -11,6 +11,6 @@ deploy:
   provider: surge
   skip_cleanup: true
   domain: sems.dev
-  project: ./build/
+  project: ./home-app/build/
 on:
   branch: master
