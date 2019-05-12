@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/semspanhaak/sems.dev.svg?branch=master)](https://travis-ci.org/semspanhaak/sems.dev)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/semspanhaak/sems.dev.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/semspanhaak/sems.dev/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/semspanhaak/sems.dev.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/semspanhaak/sems.dev/context:javascript)
 
 # Sems.dev
 
