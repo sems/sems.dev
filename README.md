@@ -1,5 +1,8 @@
-# semspanhaak
-This is the repository for my site; semspanhaak.nl
+[![Build Status](https://travis-ci.org/semspanhaak/sems.dev.svg?branch=master)](https://travis-ci.org/semspanhaak/sems.dev)
+
+# Sems.dev
+
+This is the repository for my site; [https://sems.dev](https://sems.dev)
 
 ### Available Scripts
 
