@@ -13,9 +13,9 @@ install:
 script:
   - npm run build
 deploy:
-  provider: surge
+  provider: pages
   skip_cleanup: true
-  domain: sems.dev
-  project: ./home-app/build/
-on:
-  branch: master
+  github_token: $github_token
+  local_dir: ./home-app/build/
+  on:
+    branch: master

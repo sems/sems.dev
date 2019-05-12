@@ -2,6 +2,7 @@
   "name": "Sem-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sems.dev/",
   "author": "Sem Spanhaak",
   "dependencies": {
     "ajv-keywords": "^3.4.0",
