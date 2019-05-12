@@ -4,9 +4,9 @@ node_js:
 cache:
   directories:
     - node_modules
+before_install:
+  - cd home-app
 script:
-  - cd home-app/
-  - npm install
   - npm run build
 deploy:
   provider: surge
