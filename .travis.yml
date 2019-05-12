@@ -1,11 +1,15 @@
 language: node_js
 node_js:
-  - "stable"
+  - "8.11.1"
 cache:
   directories:
     - node_modules
 before_install:
   - cd home-app
+  - npm install -g npm@4
+install:
+  - npm rebuild node-sass
+  - npm install
 script:
   - npm run build
 deploy:
