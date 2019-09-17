@@ -1,9 +1,8 @@
 .front-header 
 	height: 100%
 	background-color: #092d6c
-    background-repeat: no-repeat
+	background-repeat: no-repeat
 	min-height: 100vh
-	
 	.main 
 		margin: 0 auto
 		padding-top: 3em
@@ -45,10 +44,15 @@
 			color: #6f6e74
 		.egm
 			color:#ff6633
-		.iq
-			color:#000000
 		.twitter
 			color:#3cf
 		.linkedin
 			color:#0077b5
-		
+		.iq, .github
+			color: #000000
+@media (prefers-color-scheme: dark)
+	.front-header 
+		background-color: #000000
+		.main 
+			.iq, .github
+				color: #ffffff
