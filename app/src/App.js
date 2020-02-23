@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import './styles/page.css';
+import './styles/page.sass';
+import './styles/header.sass';
 
 import { Header } from './components/header';
 
