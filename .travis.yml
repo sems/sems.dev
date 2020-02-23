@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - "8.11.1"
+  - "stable"
 cache:
   directories:
     - node_modules
 before_install:
-  - cd home-app
-  - npm install -g npm@4
+  - cd app
+  - npm install -g npm@6
 install:
   - npm rebuild node-sass
   - npm install
@@ -16,6 +16,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
-  local_dir: ./home-app/build/
+  local_dir: ./app/build/
   on:
     branch: master
