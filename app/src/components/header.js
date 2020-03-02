@@ -1,6 +1,7 @@
 import React from 'react';
 
-import '../styles/header.css';
+import '../styles/page.sass';
+import '../styles/header.sass';
 
 export class Header extends React.Component {
 	constructor(props) {
@@ -18,7 +19,7 @@ export class Header extends React.Component {
 						<span role="img" aria-label="waving hand">👋</span> Hi, nice meeting you!
 					</p>
 					<p>
-						My name is <span className="me">Sem</span>, currently studying for my BSc in Software Engineering at <a className="windes" href="//www.windesheim.com/">Windesheim</a>. 
+						My name is <span className="me">Sem Spanhaak</span>, currently studying for my BSc in Software Engineering at <a className="windes" href="//www.windesheim.com/">Windesheim</a>. 
 						Besides school, I work as a copywriter, sales assistant and product specialist at <a className="azerty" href="//azerty.nl/">Azerty</a>.
 						The latest internship I did was at <a className="iq" href="//iqmedia.nl">IQ-Media</a> and the first at <a className="egm" href="//egm-media.com">EGM Media</a>.
 						People I've worked for are <a className="creative-orange" href="//creativeorange.nl">Creative Orange</a>, <a className="e-active" href="//e-active.nl/">E-Active</a>, <a className="landstede" href="//landstedembo.nl">Landstede</a>, <a className="azerty" href="//azerty.nl/">Azerty</a>, and <a className="dielle" href="//www.diellepelletkachel.nl/">Dielle</a>.
