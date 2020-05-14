@@ -25,7 +25,7 @@ export class Header extends React.Component {
 						I like to explore the world, talk about games, technology, and so much more.
 					</p>
 					<p>
-						If you would like to contact me, you can! Try trough <a className="twitter" href="//link.sems.dev/twitter">Twitter</a>, <a className="linkedin" href="//link.sems.dev/linkedin">LinkedIn</a>, <a className="github" href="//github.com/semspanhaak">Github</a>, or email <a className="me" href="mailto:me@sems.dev">me@sems.dev</a>.
+						If you would like to contact me, you can! Try trough <a className="twitter" href="//link.sems.dev/twitter">Twitter</a>, <a className="linkedin" href="//link.sems.dev/linkedin">LinkedIn</a>, <a className="github" href="//link.sems.dev/gh">Github</a>, or email <a className="me" href="mailto:me@sems.dev">me@sems.dev</a>.
 					</p>
 				</div>
 			</div>
