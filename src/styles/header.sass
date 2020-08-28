@@ -1,69 +1,62 @@
+@import "colour"
+
 .front-header
     height: 100%
-    background-color: #f2f2f2
+    background-color: $base-light
     background-repeat: no-repeat
     min-height: 100vh
     .main
         margin: 0 auto
-        padding: 2em 2em
+        padding: 1.8em 1.4em
         max-width: 1280px
-        font-size: 1.3em
-        line-height: 1.5em
+        p 
+            font-size: 1.1em
+            line-height: 1.5em
         @media (min-width: 576px)
             padding: 2em
-            font-size: 1.5em
+            p
+                font-size: 1.5em
         @media (min-width: 768px)
             padding-top: 3em
-            font-size: 1.6em
-            line-height: 1.7em
         @media (min-width: 992px)
             padding-top: 3.5em
-            font-size: 2em
-            background-image: url('../assets/outline_full_transparent.svg')
-            background-repeat: no-repeat
         @media (min-width: 1200px)
             padding-top: 4em
         .me
-            color: #E52A24
-            font-weight: bold
+            color: $me-light-dark
+            font-style: italic
         .zon
-            color: rgb(0, 170, 101)
+            color: $zon-light
         .akyla
-            color: #008eaa
+            color: $akyl-light-dark
         .creative-orange
-            color: #ff533b
+            color: $crea-orange-light-dark
         .landstede
-            color: #ed135d
+            color: $lands-light-dark
         .e-active
-            color: #903f98
+            color: $active-light-dark
         .windes
-            color: #cf8b01
+            color: $windes-light-dark
         .azerty
-            color: #f1900b
+            color: $azzy-light-dark
         .dielle
-            color: #e80714
+            color: $diel-light-dark
         .euron
-            color: #6f6e74
+            color: $euro-light-dark
         .egm
-            color: #00c4f4
+            color: $egm-light-dark
         .twitter
-            color: #3cf
+            color: $tweet-light-dark
         .linkedin
-            color: #0077b5
-        .pictures
-            color: #b47e4b
+            color: $link-light-dark
         .iq, .github, .gpg, .ssh
-            color: #000000
-        .key
-            text-decoration: underline
+            color: $base-dark   
 @media (prefers-color-scheme: dark)
     .front-header
         background-color: #000000
         .main
-            color: #f2f2f2
-            .iq, .github, .gpg, .ssh
-                color: #ffffff
+            color: $base-light
+            .iq, .github, .key
+                color: $base-light
             .zon
-                color: rgb(118, 204, 43)
-            .pictures
-                color: #f4b286
+                color: $zon-dark
