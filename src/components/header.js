@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import '../styles/page.sass';
 import '../styles/header.sass';
 
-export class Header extends React.Component {
+export class Header extends Component {
     render() {
         return (
             <div className="front-header">

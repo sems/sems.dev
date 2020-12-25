@@ -4,7 +4,6 @@ import './styles/page.sass';
 import './styles/header.sass';
 
 import { Header } from './components/header';
-
 class App extends Component {
 
   render() {
@@ -13,5 +12,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
