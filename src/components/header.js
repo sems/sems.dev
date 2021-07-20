@@ -10,7 +10,7 @@ export class Header extends Component {
         <div className="main">
           <h1><span role="img" aria-label="waving hand">👋</span> Hi, nice meeting you!</h1>
           <p>
-            My name is <span className="me">Sem Spanhaak</span>, currently studying at <a className="lnu" href="//lnu.se/en">Linnaeus University</a> as part of my BSc in Software Engineering at <a className="windes" href="//windesheim.nl/">Windesheim</a>. Besides school, I work as a mobile app developer at <a className="akyla" href="//akyla.nl/">Akyla</a>. 
+            My name is <span className="me">Sem Spanhaak</span>, soon starting my pre-master at <a className="uu" href="https://www.uu.nl/">Utrecht University</a>, as part of my BSc in Software Engineering at <a className="windes" href="//windesheim.nl/">Windesheim</a>. I also did part of my studies at <a className="lnu" href="//lnu.se/en">Linnaeus University</a>. Besides school, I work as a mobile app developer at <a className="akyla" href="//akyla.nl/">Akyla</a>. 
           </p> 
           <p>
             I completed internships at <a className="zon" href="//zonneplan.nl/">Zonneplan</a>, <a className="akyla" href="//akyla.nl">Akyla</a>, <a className="iq" href="//iqmedia.nl/">IQ-Media</a>, and <a className="egm" href="//epicode.nl/">Epicode</a>. People I've worked for previously are <a className="creative-orange" href="//creativeorange.nl/">Creative Orange</a>, <a className="e-active" href="//e-active.nl/">E-Active</a>, <a className="landstede" href="//landstedembo.nl/">Landstede</a>, <a className="azerty" href="//azerty.nl/">Azerty</a>, and <a className="dielle" href="//diellepelletkachel.nl/">Dielle</a>.
