@@ -5,4 +5,4 @@
 
 ## Deployment
 
-Run `yarn run deploy` to deploy to live. 
+Run `yarn run deploy` to deploy to live.
