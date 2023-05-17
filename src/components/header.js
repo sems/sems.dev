@@ -8,7 +8,7 @@ export class Header extends Component {
     return (
       <div className="front-header">
         <div className="main">
-          <h1><span role="img" aria-label="waving hand">👋</span> Hi, nice meeting you!</h1>
+          <h1>Hello <span role="img" aria-label="waving hand">👋</span></h1>
           <p>
             My name is <span className="me">Sem</span>, currently an iOS Engineer at <a className="wehkamp" href="//wehkamp.nl/">Wehkamp</a>. 
           </p> 
