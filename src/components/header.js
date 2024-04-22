@@ -10,7 +10,7 @@ export class Header extends Component {
         <div className="main">
           <h1>Hello <span role="img" aria-label="waving hand">👋</span></h1>
           <p>
-            My name is <span className="me">Sem</span>, currently an iOS Engineer at <a className="wehkamp" href="//wehkamp.nl/">Wehkamp</a>. 
+            My name is <span className="me">Sem</span>, currently an iOS Software Engineer at <a className="wehkamp" href="//wehkamp.nl/">Wehkamp</a>. 
           </p> 
           <p>
             I completed my bachelor in Software Engineering at <a className="windes" href="//windesheim.nl/">Windesheim</a>, pre-master in Computing Science at <a className="uu" href="//uu.nl/en">Utrecht University</a>, and did part of my bachelor at <a className="lnu" href="//lnu.se/en">Linnaeus University</a> in Sweden. 
