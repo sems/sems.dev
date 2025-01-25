@@ -1,46 +1,34 @@
 {
-  "name": "sems",
-  "version": "1.1.0",
+  "name": "sems-website",
   "homepage": "https://sems.dev",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.1",
-    "react-scripts": "5.0.1",
-    "sass": "^1.42.1",
-    "sass-loader": "^12.1.0",
-    "web-vitals": "^1.0.1"
-  },
+  "version": "1.0.0",
+  "description": "Simple website for myself.",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "generate-favicon": "node generate-favicon.js",
+    "sass": "sass src/styles.sass:src/styles.css --style=compressed && postcss src/styles.css --use autoprefixer -o src/styles.css",
+    "sass:watch": "sass --watch src/styles.sass:src/styles.css && postcss src/styles.css --use autoprefixer -o src/styles.css",
+    "copy-files": "copyfiles -u 1 src/CNAME src/robots.txt src/**/*.html src/styles.css src/resources/**/* build",
+    "clean-site": "rimraf build",
+    "build": "npm run clean-site && npm run sass && npm run generate-favicon && npm run copy-files",
+    "start": "browser-sync start --config bs-config.js",
+    "dev": "npm-run-all --parallel start sass:watch",
+    "deploy": "npm run build && gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Sem Spanhaak",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^3.0.3",
+    "sass": "^1.68.0",
+    "sharp": "^0.33.5",
+    "sharp-ico": "^0.1.5"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "autoprefixer": "^10.4.20",
+    "copyfiles": "^2.4.1",
+    "gh-pages": "^6.3.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0",
+    "rimraf": "^3.0.2"
   }
 }

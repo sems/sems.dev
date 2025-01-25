@@ -4,4 +4,4 @@
 
 ## Deployment
 
-Run `yarn run deploy` to deploy to live.
+Run `npm run deploy` to deploy to live.
